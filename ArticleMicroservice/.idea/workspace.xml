@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10d7940f-0dec-4414-9c0c-0721621415e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/marius_sontopski.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/ShoppingMicorservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/configuration/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/ShoppingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configuration/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/SwaggerConfig.class" afterDir="false" />
-    </list>
+    <list default="true" id="10d7940f-0dec-4414-9c0c-0721621415e5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -297,7 +284,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-188" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -306,7 +293,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3014139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="SonarLint" weight="0.32987553" />
       <window_info anchor="bottom" id="Version Control" weight="0.32987553" />
@@ -315,7 +302,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32987553" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42741936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

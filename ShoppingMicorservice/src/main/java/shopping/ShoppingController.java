@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ShoppingController {
 
-    @Autowired
-    public ShoppingController () {}
+    private final ShoppingService service;
 
+    @Autowired
+    public ShoppingController (final ShoppingService service) { this.service = service;}
 
 }
