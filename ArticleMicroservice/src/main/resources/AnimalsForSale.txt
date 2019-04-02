@@ -1,0 +1,8 @@
+id1,Tiger,Shirkan,15,Dresden,37000.63,
+id2,Elephant,Dumbo,2,Glasgow,53000.01,
+id3,Shark,Bruce,7,Dubai,86000.60,
+id4,Zebra,Marty,12,Amsterdam,10000.69,
+id5,Lion,Simba,3,Singapore,45000.37,
+id6,Orca,Willy,8,Mexico,125800.75,
+id7,Dolphin,Flipper,4,Florida,75000,
+id8,Gorilla,Terk,2,Kampala,43000.47,
