@@ -10,14 +10,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
-        authenticationManagerBuilder.inMemoryAuthentication().withUser("admin").password("hallo").roles("USER");
+        authenticationManagerBuilder.inMemoryAuthentication().withUser("admin").password("{noop}hallo").roles("ADMIN");
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/").hasRole("USER")
-                    .and()
+                .antMatchers("/").hasRole("ADMIN")
+                .and()
                 .httpBasic();
     }
 }
