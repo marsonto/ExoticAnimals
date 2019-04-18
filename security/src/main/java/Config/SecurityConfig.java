@@ -1,26 +1,19 @@
 package Config;
 
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
-import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+@EnableWebSecurity
+public class SecurityConfig implements WebMvcConfigurer {
 
-    /*
-    @Override
-    protected void configure(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
-        authenticationManagerBuilder.inMemoryAuthentication()
-                .withUser("admin").password("{noop}hallo").roles("USER");
+    @Bean
+    public UserDetailsService userDetailsService() throws Exception {
+        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
+        manager.createUser(User.withDefaultPasswordEncoder().username("user").password("password").roles("USER").build());
+        return manager;
     }
-
-
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http
-                .authorizeRequests()
-                .antMatchers("/").hasRole("USER")
-                .and().
-                httpBasic();
-    }
-     */
 }
