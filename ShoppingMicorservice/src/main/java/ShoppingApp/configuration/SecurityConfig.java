@@ -1,4 +1,4 @@
-package configuration;
+package ShoppingApp.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -12,7 +12,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().withUser("user").password("password").roles("ADMIN");
+        auth.inMemoryAuthentication().withUser("dude").password("{noop}wow").roles("ADMIN");
     }
 
     @Override

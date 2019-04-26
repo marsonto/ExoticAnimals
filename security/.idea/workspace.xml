@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ebeb63f-7991-4602-91d7-d07bc2ae9977" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ArticleMicroservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArticleMicroservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/configuration/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/configuration/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/services/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/ShoppingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/services/ShoppingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/ShoppingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/services/ShoppingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

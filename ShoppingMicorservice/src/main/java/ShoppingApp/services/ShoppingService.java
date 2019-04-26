@@ -1,4 +1,4 @@
-package shopping;
+package ShoppingApp.services;
 
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;

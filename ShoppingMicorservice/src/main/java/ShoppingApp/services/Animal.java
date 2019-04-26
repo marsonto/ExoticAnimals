@@ -1,4 +1,4 @@
-package dataaccess;
+package ShoppingApp.services;
 
 public class Animal {
 
