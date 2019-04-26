@@ -1,4 +1,4 @@
-package ShoppingApp.services;
+package shoppingapp.services;
 
 public class Animal {
 

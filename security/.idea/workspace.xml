@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ebeb63f-7991-4602-91d7-d07bc2ae9977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ShoppingMicorservice/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/configuration/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/configuration/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/services/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/ShoppingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/services/ShoppingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shopping/ShoppingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/services/ShoppingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArticleMicroservice/src/main/java/DataApp/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArticleMicroservice/src/main/java/DataApp/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/ShoppingApp/services/ShoppingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/services/ShoppingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/configuration/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/configuration/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/services/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/services/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/services/ShoppingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/src/main/java/shoppingapp/services/ShoppingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShoppingMicorservice/target/classes/ShoppingApp/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ShoppingMicorservice/target/classes/ShoppingApp/configuration/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SecureWebApp/Config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-13">
@@ -59,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SecureWebApp/services/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
@@ -312,6 +313,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SecureWebApp/services/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="30" column="78" lean-forward="true" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SecureWebApp/Config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
@@ -320,16 +331,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#969#970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SecureWebApp/services/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="30" column="78" lean-forward="true" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
