@@ -1,4 +1,4 @@
-package DataApp.dataaccess;
+package dataapp.dataaccess;
 
 public class Animal {
 

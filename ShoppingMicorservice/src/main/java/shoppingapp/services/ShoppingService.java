@@ -7,14 +7,17 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class ShoppingService {
 
-    public Animal getAnimalById(String id){
+    public Animal getAnimalById(String id) {
         final String uri = "http://localhost:8080/shop";
-        RestTemplate restTemplate = new RestTemplate();
-        HttpHeaders headers = new HttpHeaders();
+        final String plain = "dude:wow";
 
+        final HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        HttpEntity<String> entity = new HttpEntity<>(id,headers);
+        headers.add(HttpHeaders.USER_AGENT, "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36");
+        headers.add(HttpHeaders.AUTHORIZATION, plain);
 
+        RestTemplate restTemplate = new RestTemplate();
+        HttpEntity<String> entity = new HttpEntity<>(id, headers);
         ResponseEntity<Animal> result = restTemplate.exchange(uri, HttpMethod.POST, entity, Animal.class);
 
         return result.getBody();
