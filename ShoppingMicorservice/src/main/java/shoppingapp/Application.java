@@ -6,7 +6,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @EnableSwagger2
-@EnableWebSecurity(debug = true)
+@EnableWebSecurity
 @SpringBootApplication
 public class Application {
 
