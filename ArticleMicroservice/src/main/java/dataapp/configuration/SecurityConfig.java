@@ -6,7 +6,6 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.config.http.SessionCreationPolicy;
 
 @Configuration
 @EnableWebSecurity
@@ -22,6 +21,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser("pleb").password("{noop}man").authorities("ROLE_USER");
     }
 
+    /**          .and()
+                .csrf().disable()
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                .and()
+                .exceptionHandling().accessDeniedPage("/login")
+                .and();
+                //.addFilterBefore(new JwtTokenAuthenticationFilter)
+                 */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
@@ -29,13 +36,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()//.antMatchers("/shop/3").hasAuthority("ROLE_ADMIN")
                 .and()
                 .formLogin()
-                .permitAll()
-                .and()
-                .csrf().disable()
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-                .and()
-                .exceptionHandling().accessDeniedPage("/login")
-                .and();
-                //.addFilterBefore(new JwtTokenAuthenticationFilter)
+                .permitAll();
     }
 }

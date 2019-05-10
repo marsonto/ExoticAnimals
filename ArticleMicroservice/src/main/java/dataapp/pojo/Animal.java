@@ -1,4 +1,4 @@
-package dataapp.dataaccess;
+package dataapp.pojo;
 
 public class Animal {
 
