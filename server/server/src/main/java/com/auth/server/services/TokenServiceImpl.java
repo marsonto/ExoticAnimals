@@ -21,8 +21,8 @@ public class TokenServiceImpl implements TokenService {
     @Override
     public JWTTokenResponse generateToken(String username) {
 
-        Date createdDate = new Date();
-        Date expirationDate = new Date(createdDate.getTime() + validity);
+        final Date createdDate = new Date();
+        final Date expirationDate = new Date(createdDate.getTime() + validity);
 
         return new JWTTokenResponse(Jwts.builder()
                 .setClaims(new HashMap<>())
